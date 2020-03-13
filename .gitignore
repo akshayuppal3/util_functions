@@ -1,0 +1,36 @@
+# MacOS
+.DS_Store
+
+# Editor
+.vscode/
+
+# Generated
+build/
+pcs.egg-info/
+
+# Python
+*.pyc
+*.ipynb_checkpoints
+.pytest_cache/
+
+# Logs
+*.log
+
+conda-pkgs*
+
+# Pycharm/Intellij
+*.iml
+.idea/
+
+# Flask instance directory
+instance/*.cfg
+
+.cache/
+
+# only used for hacky local stuff atm
+resources/
+
+venv/
+
+static/
+requirements_test.txt
